@@ -23,6 +23,6 @@ class Skeleton extends Component
 
     public function render()
     {
-        return view('ld-skeleton::livewire.skeleton');
+        return view('sb-skeleton::livewire.skeleton');
     }
 }

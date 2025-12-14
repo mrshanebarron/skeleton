@@ -9,8 +9,8 @@ class SkeletonServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if (class_exists(\Livewire\Livewire::class)) {
-            \Livewire\Livewire::component('ld-skeleton', Livewire\Skeleton::class);
+            \Livewire\Livewire::component('sb-skeleton', Livewire\Skeleton::class);
         }
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'ld-skeleton');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'sb-skeleton');
     }
 }

@@ -8,7 +8,7 @@
 import { computed } from 'vue';
 
 export default {
-  name: 'LdSkeleton',
+  name: 'SbSkeleton',
   props: {
     variant: { type: String, default: 'text' },
     width: { type: String, default: null },
